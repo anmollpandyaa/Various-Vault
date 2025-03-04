@@ -1,0 +1,6 @@
+(String, int, int) printDetails(){
+  return ('Anmol', 3, 6);
+}
+void main() {
+  print(printDetails());
+}
