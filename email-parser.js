@@ -1,6 +1,7 @@
 const email = prompt("Enter your email: ")
 
 function parseEmail(email) {
+    if(!email.includes("@")) return "invalid email!"
     email = email.trim().toLowerCase()
     
     const components = email.split("@")
